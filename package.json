@@ -1,19 +1,26 @@
 {
-  "name": "my-app",
+  "name": "nftychat-universe-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.8.1",
+    "@svgr/rollup": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
+    "ethers": "^5.7.2",
+    "nftychat-universe": "file:../nftychat-universe/nftychat-universe-v2.0.0.tgz",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "rollup": "^2.79.1",
+    "wagmi": "^0.8.2",
     "web-vitals": "^2.1.4"
   },
+  "source": "src/App.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build2": "rollup -c",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
