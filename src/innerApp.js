@@ -20,7 +20,7 @@ function InnerApp() {
       <ConnectButton chainStatus="none"/>
     </div>
       <p className="title">
-        nftychat Add-on Gallery
+        Add-on Gallery for <a href="https://nftychat.xyz/universe" rel="norefferer" style={{color:"DeepSkyBlue"}}>nftychat Universe</a>
       </p>
       <div className="gallery">
         <div className="gallery__item">
@@ -28,6 +28,7 @@ function InnerApp() {
 
           <UniversalDm
             address={sampleAddress}
+            addOnType="div"
             // displayName={sampleDisplayName}
             theme="dark"
             popoverDirection="top"

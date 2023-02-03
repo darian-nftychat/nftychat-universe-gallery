@@ -8163,10 +8163,10 @@ nftychat-universe@^1.4.6:
     nftychat-universe "^1.4.6"
     react-hot-toast "^2.3.0"
 
-nftychat-universe@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-2.0.4.tgz#92524f27e43dd6854c35a07d2daf02bdf53b8d7c"
-  integrity sha512-XWLhx6d/glCACM2UjUmyzoFhVnuvfG4+m1E6VDHyP5x47j7Y32rlbeuh8B81IMHh2ZsAARX+aTWF3SXXzQoHxA==
+nftychat-universe@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-2.1.2.tgz#243a8923d9f4e5c64e4f150c09c952aaccdc032c"
+  integrity sha512-TQxWpKugcYt50QBjue/nFHDGFdK3MtmUav3/Xe7lwbi6CHrlU15r0c06qL/2A02rkfSKimKVO4mt6ZlihZmLHw==
   dependencies:
     "@babel/core" "^7.19.3"
     "@emotion/react" "^11.10.4"
